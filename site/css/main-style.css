@@ -1,0 +1,93 @@
+body {
+	font-family: helvetica sans-serif;
+	padding: 0px;
+
+}
+h1 {
+	font-size: 175%;
+	text-align: center;
+}
+h2 {
+	float: right;
+	margin: 0px;
+	border-bottom: 3px solid black;
+	border-left: 3px solid black;
+	width: 30%;
+	text-align: center;
+	border-collapse: collapse;
+	font-size: 125%;
+
+
+}
+footer {
+	height: 30px;
+	width: 100%;
+	background-color: gray;
+	position: absolute;
+	bottom: 0px;
+	
+}
+#heading1 {
+	background-color: blue
+}
+#heading2 {
+	background-color: red
+}
+#heading3 {
+	background-color: green
+}
+* {
+	box-sizing: border-box;
+
+}
+p {
+	margin-top: 30px;
+}
+@media (min-width: 992px) {
+	.section {
+		
+		width: 31%;
+		float: left;
+		background-color: gray;
+		padding: 0px;
+		margin: 1%;
+		border: 3px solid black;
+		border-collapse: collapse;
+		padding: 5px;
+		padding-top: 0px;
+		padding-right: 0px;
+	}
+
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.section {
+		
+		width: 48%;
+		float: left;
+		background-color: gray;
+		padding: 0px;
+		margin: 1%;
+		border: 3px solid black;
+		border-collapse: collapse;
+		padding: 5px;
+		padding-top: 0px;
+		padding-right: 0px;
+	}
+	#section3 {
+		width: 98%;
+	}
+}
+@media (max-width: 767px) {
+	.section {
+		width: 95%;
+		float: left;
+		background-color: gray;
+		padding: 0px;
+		margin: 1%;
+		border: 3px solid black;
+		border-collapse: collapse;
+		padding: 5px;
+		padding-top: 0px;
+		padding-right: 0px;
+	}
+}
